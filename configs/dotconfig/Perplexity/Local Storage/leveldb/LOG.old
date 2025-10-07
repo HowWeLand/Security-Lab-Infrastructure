@@ -1,0 +1,5 @@
+2025/09/24-06:50:00.188 399b0b Creating DB /home/user1138/.config/Perplexity/Local Storage/leveldb since it was missing.
+2025/09/24-06:50:00.223 399b0b Reusing MANIFEST /home/user1138/.config/Perplexity/Local Storage/leveldb/MANIFEST-000001
+2025/09/24-06:51:00.224 399b0d Level-0 table #5: started
+2025/09/24-06:51:00.233 399b0d Level-0 table #5: 289509 bytes OK
+2025/09/24-06:51:00.238 399b0d Delete type=0 #3

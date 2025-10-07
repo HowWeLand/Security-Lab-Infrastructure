@@ -1,0 +1,4 @@
+config
+config /ui/mouse/mode enabled
+open /run/media/kali/fb7c7c08-7313-4003-a024-585f943c7b27/@var@log/
+q

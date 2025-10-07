@@ -1,0 +1,24 @@
+name: remote-support
+root: ~/
+
+windows:
+  - main:
+      # this is where you start 
+      layout: main-vertical
+      panes:
+        - # Command execution (left top)
+        - man ssh  # Man page reference (right)
+        - htop     # System monitoring (bottom)
+        # Container tabs below
+  - container:
+      layout: even-horizontal
+      panes:
+        - podman ps -a
+        - # Empty for running containers
+        # Logs in window 2
+  - logs:
+      panes: tiles # Cause this where all the ogs live
+        - journalctl -f
+        - # Left
+        - # blank
+        - # on purpose

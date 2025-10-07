@@ -1,0 +1,18 @@
+{
+    "[dockercompose]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.autoIndent": "advanced",
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "[github-actions-workflow]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "redhat.telemetry.enabled": false,
+    "editor.tabSize": 2,
+    "editor.renderWhitespace": "none",
+    "workbench.settings.applyToAllProfiles": [
+        "editor.tabSize",
+        "editor.renderWhitespace"
+    ]
+}

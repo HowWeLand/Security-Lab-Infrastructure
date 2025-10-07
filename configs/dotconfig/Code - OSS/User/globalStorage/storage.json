@@ -1,0 +1,73 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "63b07874645deb1773e56fd2ad47caae989b8517288e3bc5fd727cdbc1db58c5",
+    "telemetry.devDeviceId": "6ecfaa48-a05c-4f97-92a7-c0060c72754a",
+    "backupWorkspaces": {
+        "workspaces": [
+            {
+                "id": "78e2b3f7ac3bbd0f9ba1071b46464802",
+                "configURIPath": "file:///home/user1138/.config/Code%20-%20OSS/Workspaces/1758905007781/workspace.json"
+            }
+        ],
+        "folders": [],
+        "emptyWindows": [
+            {
+                "backupFolder": "1758848026319"
+            }
+        ]
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {},
+        "emptyWindows": {
+            "1758848026319": "__default__profile__"
+        }
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#1f1f1f",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cccccc",
+            "background": "#1f1f1f",
+            "editorBackground": "#1f1f1f",
+            "titleBarBackground": "#181818",
+            "titleBarBorder": "#2b2b2b",
+            "activityBarBackground": "#181818",
+            "activityBarBorder": "#2b2b2b",
+            "sideBarBackground": "#181818",
+            "sideBarBorder": "#2b2b2b",
+            "statusBarBackground": "#181818",
+            "statusBarBorder": "#2b2b2b",
+            "statusBarNoFolderBackground": "#1f1f1f"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 0,
+            "auxiliarySideBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "workspaceIdentifier": {
+                "id": "78e2b3f7ac3bbd0f9ba1071b46464802",
+                "configURIPath": "file:///home/user1138/.config/Code%20-%20OSS/Workspaces/1758905007781/workspace.json"
+            },
+            "backupPath": "/home/user1138/.config/Code - OSS/Backups/78e2b3f7ac3bbd0f9ba1071b46464802",
+            "uiState": {
+                "mode": 1,
+                "x": 360,
+                "y": 140,
+                "width": 1200,
+                "height": 800
+            }
+        },
+        "openedWindows": []
+    }
+}

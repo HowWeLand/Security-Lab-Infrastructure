@@ -1,0 +1,46 @@
+2025/10/01-18:36:32.505 2218b Reusing MANIFEST /home/user1138/.config/Proton Mail/Partitions/app/IndexedDB/https_calendar.proton.me_0.indexeddb.leveldb/MANIFEST-000001
+2025/10/01-18:36:32.505 2218b Recovering log #181
+2025/10/01-18:36:32.505 2218b Reusing old log /home/user1138/.config/Proton Mail/Partitions/app/IndexedDB/https_calendar.proton.me_0.indexeddb.leveldb/000181.log 
+2025/10/01-18:36:32.617 222ae Level-0 table #186: started
+2025/10/01-18:36:32.620 222ae Level-0 table #186: 510 bytes OK
+2025/10/01-18:36:32.627 222ae Delete type=0 #181
+2025/10/01-18:36:32.627 2218b Manual compaction at level-0 from '\x00=\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00>\x00\x00\x00' @ 0 : 0; will stop at '\x00=\x00\x00\x05' @ 1291 : 1
+2025/10/01-18:36:32.627 2218b Compacting 1@0 + 1@1 files
+2025/10/01-18:36:32.629 2218b Generated table #187@0: 45 keys, 921 bytes
+2025/10/01-18:36:32.630 2218b Compacted 1@0 + 1@1 files => 921 bytes
+2025/10/01-18:36:32.633 2218b compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/10/01-18:36:32.634 2218b Delete type=2 #186
+2025/10/01-18:36:32.634 2218b Manual compaction at level-0 from '\x00=\x00\x00\x05' @ 1291 : 1 .. '\x00>\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/10/01-18:36:32.651 2218b Level-0 table #189: started
+2025/10/01-18:36:32.654 2218b Level-0 table #189: 795 bytes OK
+2025/10/01-18:36:32.658 2218b Delete type=2 #183
+2025/10/01-18:36:32.658 2218b Delete type=0 #185
+2025/10/01-18:36:32.658 2218b Manual compaction at level-0 from '\x00>\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00?\x00\x00\x00' @ 0 : 0; will stop at '\x00>\x00\x00\x05' @ 1308 : 1
+2025/10/01-18:36:32.658 2218b Compacting 1@0 + 1@1 files
+2025/10/01-18:36:32.660 2218b Generated table #190@0: 45 keys, 921 bytes
+2025/10/01-18:36:32.660 2218b Compacted 1@0 + 1@1 files => 921 bytes
+2025/10/01-18:36:32.664 2218b compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/10/01-18:36:32.665 2218b Delete type=2 #189
+2025/10/01-18:36:32.665 2218b Manual compaction at level-0 from '\x00>\x00\x00\x05' @ 1308 : 1 .. '\x00?\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/10/01-18:36:32.686 222ae Level-0 table #192: started
+2025/10/01-18:36:32.690 222ae Level-0 table #192: 747 bytes OK
+2025/10/01-18:36:32.696 222ae Delete type=2 #187
+2025/10/01-18:36:32.696 222ae Delete type=0 #188
+2025/10/01-18:36:32.697 2218c Manual compaction at level-0 from '\x00?\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00@\x00\x00\x00' @ 0 : 0; will stop at '\x00@\x00\x00\x05' @ 1334 : 1
+2025/10/01-18:36:32.697 2218c Compacting 1@0 + 1@1 files
+2025/10/01-18:36:32.699 2218c Generated table #193@0: 47 keys, 951 bytes
+2025/10/01-18:36:32.699 2218c Compacted 1@0 + 1@1 files => 951 bytes
+2025/10/01-18:36:32.704 2218c compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/10/01-18:36:32.704 2218c Delete type=2 #192
+2025/10/01-18:36:32.704 2218c Manual compaction at level-0 from '\x00@\x00\x00\x05' @ 1334 : 1 .. '\x00@\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/10/01-18:36:32.705 2218c Level-0 table #195: started
+2025/10/01-18:36:32.707 2218c Level-0 table #195: 751 bytes OK
+2025/10/01-18:36:32.712 2218c Delete type=2 #190
+2025/10/01-18:36:32.712 2218c Delete type=0 #191
+2025/10/01-18:36:32.713 2218c Manual compaction at level-0 from '\x00@\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00A\x00\x00\x00' @ 0 : 0; will stop at '\x00@\x00\x00\x05' @ 1361 : 0
+2025/10/01-18:36:32.713 2218c Compacting 1@0 + 1@1 files
+2025/10/01-18:36:32.715 2218c Generated table #196@0: 45 keys, 924 bytes
+2025/10/01-18:36:32.715 2218c Compacted 1@0 + 1@1 files => 924 bytes
+2025/10/01-18:36:32.719 2218c compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/10/01-18:36:32.720 2218c Delete type=2 #195
+2025/10/01-18:36:32.720 2218c Manual compaction at level-0 from '\x00@\x00\x00\x05' @ 1361 : 0 .. '\x00A\x00\x00\x00' @ 0 : 0; will stop at (end)

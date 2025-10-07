@@ -1,0 +1,48 @@
+# Ignore compiled binaries and object files
+*.exe
+*.dll
+*.so
+*.dylib
+*.o
+*.obj
+*.pyc
+*.class
+
+# Ignore secrets and keys
+*.env
+*.key
+*.pem
+*.p12
+*.pfx
+*.asc
+*.gpg
+secrets/
+config.yaml
+# If you've made it here; yes I am trying to keep it clean
+# Ignore editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+*.tmp
+*~
+
+# Ignore OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore logs and temp files
+*.log
+tmp/
+temp/
+
+# Ignore common dependency caches (optional)
+node_modules/
+__pycache__/
+
+# Ignore archives or large media
+*.zip
+*.tar.gz
+

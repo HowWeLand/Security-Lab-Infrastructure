@@ -1,0 +1,5 @@
+2025/10/01-18:35:15.990 2219a Reusing MANIFEST /home/user1138/.config/Proton Pass/Partitions/app/Local Storage/leveldb/MANIFEST-000001
+2025/10/01-18:35:15.997 2219a Recovering log #730
+2025/10/01-18:35:15.998 2219a Level-0 table #733: started
+2025/10/01-18:35:16.001 2219a Level-0 table #733: 28051 bytes OK
+2025/10/01-18:35:16.005 2219a Delete type=0 #730
