@@ -14,14 +14,30 @@
 *.pem
 *.p12
 *.pfx
-*.asc
-*.gpg
-secrets/
-config.yaml
-# If you've made it here; yes I am trying to keep it clean
-# Ignore editor and IDE files
-.vscode/
-.idea/
+*.env
+*.env.*
+*_rsa
+*_dsa
+*_ecdsa
+*_ed25519
+credentials.json
+secrets.yml
+secrets.yaml
+api_keys.txt
+.secrets/
+
+# Ignore file exposing my shame
+# Dishonor on me, Dishonor on my cow
+gitleaks-report.json
+
+# Config files that might contain secrets
+config.local.*
+.env.local
+.env.production
+
+# Backup files
+*.backup
+*.bak
 *.swp
 *.swo
 *.bak
@@ -46,3 +62,8 @@ __pycache__/
 *.zip
 *.tar.gz
 
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
