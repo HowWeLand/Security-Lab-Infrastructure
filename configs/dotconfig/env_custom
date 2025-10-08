@@ -1,0 +1,26 @@
+# Force GPG_TTY to be a tty so pientry won't hanf
+# and I don't have to turn off signing on my repos
+export GPG_TTY=$(tty)
+
+# Eplicitly setting this option
+export EDITOR=nvim
+
+# Source language runtimes
+# Go
+export GOPATH="$HOME/bin/go"
+export PATH="$PATH:$GOPATH"
+
+# Rustup has to be naughty 
+export RUSTUP_HOME="$HOME/bin/rust/rustup"
+# Cargo for rust from rustup
+export CARGO_HOME="$HOME/bin/rust/cargo"
+# Add them both to path
+export PATH="$PATH:$CARGO_HOME/bin"
+
+# Python as well
+# Set the location for pipx's virtual environments
+export PIPX_HOME="$HOME/bin/python/pipx_venvs"
+# Set the location for the executable binaries
+export PIPX_BIN_DIR="$HOME/bin/python/pipx_bin"
+# Add the new executable directory to your PATH
+export PATH="$PATH:$PIPX_BIN_DIR"

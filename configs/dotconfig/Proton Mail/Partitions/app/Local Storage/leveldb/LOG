@@ -1,5 +1,0 @@
-2025/10/01-18:35:16.270 2218b Reusing MANIFEST /home/user1138/.config/Proton Mail/Partitions/app/Local Storage/leveldb/MANIFEST-000001
-2025/10/01-18:35:16.270 2218b Recovering log #10
-2025/10/01-18:35:16.271 2218b Reusing old log /home/user1138/.config/Proton Mail/Partitions/app/Local Storage/leveldb/000010.log 
-2025/10/01-18:36:36.987 2218c Level-0 table #14: started
-2025/10/01-18:36:36.991 2218c Level-0 table #14: 18591 bytes OK

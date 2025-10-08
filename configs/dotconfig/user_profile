@@ -1,0 +1,14 @@
+# Everything is Modular to keep it clean and make it easier to version control
+# because I'm not backing up Kali's configs
+# Source .zsh_aliases if it exists
+[ -f "$HOME/.zsh_aliases" ] && source "$HOME/.zsh_aliases"
+[ -f "$HOME/.zsh_functions" ] && source "$HOME/.zsh_functions"
+
+# Source modular enviromentaal configs
+[ -f ~/.env_colors ] && source ~/.env_colors
+[ -f ~/.env_custom ] && source ~/.env_custom  
+[ -f ~/.env_display ] && source ~/.env_display
+
+# Keeping ssh maintenance in here
+# Clears the passwod on authentication but keeps usable for cron jobs
+keychain --clear --quiet ~/.ssh/id_ed25519_github ~/.ssh/id_ed25519_gitlab

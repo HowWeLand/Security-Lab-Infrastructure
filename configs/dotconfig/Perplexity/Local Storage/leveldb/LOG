@@ -1,6 +1,0 @@
-2025/09/24-07:18:26.030 39a673 Reusing MANIFEST /home/user1138/.config/Perplexity/Local Storage/leveldb/MANIFEST-000001
-2025/09/24-07:18:26.060 39a673 Recovering log #4
-2025/09/24-07:18:26.060 39a673 Reusing old log /home/user1138/.config/Perplexity/Local Storage/leveldb/000004.log 
-2025/09/24-07:48:47.869 39a675 Level-0 table #8: started
-2025/09/24-07:48:47.878 39a675 Level-0 table #8: 20131 bytes OK
-2025/09/24-07:48:47.883 39a675 Delete type=0 #4

@@ -1,0 +1,57 @@
+# For a double does of the pimping
+alias upgrayyedd='sudo apt update && sudo apt full-upgrade && sudo apt-get autopurge'
+
+# Verbose file operations
+alias cp='cp -iv'           # Interactive & verbose copy
+alias mv='mv -iv'           # Interactive & verbose move  
+alias rm='rm -iv'           # Interactive & verbose remove
+alias mkdir='mkdir -pv'     # Create parent dirs & verbose
+
+# Clipboard Management
+alias xclipboard='xclip -selection clipboard'
+
+# Verbose directory operations
+alias rmdir='rmdir -v'      # Verbose remove directory
+
+# Verbose changes
+alias chmod='chmod -v'      # Verbose permission changes
+alias chown='chown -v'      # Verbose ownership changes
+
+# Archive operations
+alias tar='tar -v'          # Verbose tar
+alias rsync='rsync -v'      # Verbose rsync
+
+# GPG management sanity
+alias gpg-list-secrets='gpg --list-secret-keys --with-subkey-fingerprint'
+alias gpg-list='gpg --list-keys --with-subkey-fingerprints'
+alias gpg-list-full='gpg --list-secret-keys --with-keygrip --with-subkey-fingerprints'
+alias gpg-fix='gpgconf --kill gpg-agent && gpgconf --launch gpg-agent'
+
+# Apt tagging aliases, I really use
+# Install with intentional tagging
+# Let this be a lesson. Use aptitude over apt and track why the $%*^$ 
+# you install things
+apt-tag() {
+    local tag=$1
+    shift
+    echo "📦 Installing $* with tag: $tag"
+    sudo aptitude install --add-user-tag="$tag" "$@"
+}
+
+#The sane person's package organization
+# Usage retag $tag $pkg
+alias retag='sudo aptitude add-user-tag'
+# Usage tag-search $tag Find all packages with tag
+alias tag-search='aptitude search "?user-tag"'
+# Usage tag-orphan $tag Find all packages with a dependency tag where the parent is uninstalled
+alias tag-orphans='aptitude search "?user-tag(?not(~g~i))"'
+
+# Batch tagging because life's too short
+# Pass tag-batch $tag $file
+# takes a file as input and tag's all packages
+tag-batch() {
+    local tag=$1
+    shift
+    echo "📦 Tagging $# packages as: $tag"
+    sudo aptitude add-user-tag "$tag" "$@"
+}
