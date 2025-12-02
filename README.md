@@ -19,7 +19,7 @@ start your own.
 - Actual Write-ups
 # Security-Lab-Infrastructure [ARCHIVED]
 
-**This repository has been archived and superseded by [Kali-Bootstrap-Documentation].**
+**This repository has been archived and superseded by [Kali-Bootstrap-Documentation https://github.com/HowWeLand/Kali-Bootstrap-Project/tree/main****].**
 
 ## Why Archive Instead of Delete?
 
